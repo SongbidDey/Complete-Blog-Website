@@ -1,0 +1,55 @@
+<%- include("partials/header"); -%>
+    <h1>Contact</h1>
+    <style>
+        .contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color:#ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color:#ff004f;
+    transform:translateY(-5px);
+}
+    </style>
+    <script src="https://kit.fontawesome.com/48626c3cf1.js" crossorigin="anonymous"></script>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    
+                    <p><i class="fa-solid fa-paper-plane"></i>songbiddey.eng@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9002008605</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/songbid.dey" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/SongbidDey" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/songbid_dey/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/songbid-dey/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+<%- include("partials/footer"); -%>
